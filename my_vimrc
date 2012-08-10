@@ -39,13 +39,13 @@ map <C-b> :MRU<CR>
 
 map <C-p> :Path<CR>
 
-"For azerty
-map <C-m> gt
-map <C-l> gT
-
-"For qwerty
+"qwerty
 "map <C-l> gt
 "map <C-k> gT
+
+"azerty
+map <C-m> gt
+map <C-l> gT
 
 map <C-e> :Errors<CR>
 
@@ -62,16 +62,20 @@ augroup myfiletypes
         " Clear old autocmds in group
         autocmd!
         "         " autoindent with two spaces, always expand tabs
-        autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+        autocmd FileType ruby,eruby,yaml,coffee set ai sw=2 sts=2 et
 augroup END
 
 
+"For gnome-terminal
 if $COLORTERM == 'gnome-terminal'
         set term=gnome-256color
         colorscheme molokai
 else
         colorscheme default
 endif
+
+"For OSX
+"colorscheme molokai
 
 set cursorline
 hi CursorLine cterm=underline
