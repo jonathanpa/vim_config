@@ -1,0 +1,36 @@
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = git://github.com/vim-scripts/ack.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-align"]
+	path = bundle/vim-align
+	url = git://github.com/tsaleh/vim-align.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-gemfile"]
+	path = bundle/vim-gemfile
+	url = git://github.com/tobiassvn/vim-gemfile.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = git://github.com/skwp/vim-rspec.git
+[submodule "bundle/vim-ruby-matchit"]
+	path = bundle/vim-ruby-matchit
+	url = git://github.com/semmons99/vim-ruby-matchit.git
+[submodule "bundle/vim-supertab"]
+	path = bundle/vim-supertab
+	url = git://github.com/tsaleh/vim-supertab.git
+[submodule "bundle/vim-tagbar"]
+	path = bundle/vim-tagbar
+	url = git://github.com/timgreen/vim-tagbar.git
