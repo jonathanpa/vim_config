@@ -37,7 +37,7 @@ map <C-z> :FufTab<CR>
 
 map <C-b> :MRU<CR>
 
-map <C-p> :Path<CR>
+map <C-h> :Path<CR>
 
 "qwerty
 "map <C-l> gt
