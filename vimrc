@@ -68,7 +68,7 @@ augroup END
 
 "For gnome-terminal
 if $COLORTERM == 'gnome-terminal'
-  set term=gnome-256color
+  set term=screen-256color
 endif
 
 colorscheme molokai
