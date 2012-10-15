@@ -22,9 +22,6 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "bundle/vim-rspec"]
-	path = bundle/vim-rspec
-	url = git://github.com/skwp/vim-rspec.git
 [submodule "bundle/vim-ruby-matchit"]
 	path = bundle/vim-ruby-matchit
 	url = git://github.com/semmons99/vim-ruby-matchit.git
