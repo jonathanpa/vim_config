@@ -52,11 +52,11 @@ map <C-e> :Errors<CR>
 
 let g:syntastic_enable_signs=1
 
-set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]\ %=
+"set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]\ %=
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 set laststatus=2
 
 augroup myfiletypes
