@@ -40,9 +40,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = git://github.com/Raimondi/delimitMate.git
-[submodule "bundle/xml.vim"]
-	path = bundle/xml.vim
-	url = git://github.com/vim-scripts/xml.vim.git
 [submodule "bundle/gist-vim.git"]
 	path = bundle/gist-vim.git
 	url = git://github.com/mattn/gist-vim.git
