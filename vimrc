@@ -40,6 +40,8 @@ map <C-b> :MRU<CR>
 map <C-h> :Path<CR>
 map <C-j> :FufTag<CR>
 
+map <C-c> :TComment<CR>
+
 "qwerty
 "map <C-l> gt
 "map <C-k> gT
