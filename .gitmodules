@@ -76,3 +76,6 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/gregsexton/gitv.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = git://github.com/skwp/vim-rspec.git

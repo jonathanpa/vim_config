@@ -42,6 +42,9 @@ map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
+map <C-p> :RunSpec<CR>
+map <C-t> :RunSpecLine<CR>
+
 "qwerty
 "map <C-l> gt
 "map <C-k> gT
