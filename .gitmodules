@@ -82,3 +82,6 @@
 [submodule "bundle/screen.git"]
 	path = bundle/screen.git
 	url = git://github.com/ervandew/screen.git
+[submodule "bundle/vim-rspec.git"]
+	path = bundle/vim-rspec.git
+	url = git://github.com/skwp/vim-rspec.git

@@ -42,6 +42,9 @@ map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
+map <C-p> :RunSpec<CR>
+map <C-t> :RunSpecLine<CR>
+
 "qwerty
 "map <C-l> gt
 "map <C-k> gT
@@ -86,5 +89,5 @@ let g:ScreenShellInitialFocus = 'shell'
 let g:ScreenShellQuitOnVimExit = 0
 map <F8> :ScreenShell<CR>
 command -nargs=? -complete=shellcmd W :w | :call ScreenShellSend("load '".@%."';")
-map <C-p> :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
-map <C-t> :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
+map ,p :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
+map ,t :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
