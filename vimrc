@@ -30,7 +30,7 @@ map <F2> :match ExtraWhitespace /\s\+$/<CR>
 map <F3> :Trim<CR>
 
 map <F5> :NERDTreeToggle<CR>
-map <F8> :TagbarToggle<CR>
+map <F6> :TagbarToggle<CR>
 
 map <C-a> :FufCoverageFile<CR>
 map <C-z> :FufTab<CR>
@@ -41,9 +41,6 @@ map <C-h> :Path<CR>
 map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
-
-map <C-p> :RunSpec<CR>
-map <C-t> :RunSpecLine<CR>
 
 "qwerty
 "map <C-l> gt
@@ -57,11 +54,6 @@ map <C-e> :Errors<CR>
 
 let g:syntastic_enable_signs=1
 
-"set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]\ %=
-
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
 set laststatus=2
 
 augroup myfiletypes
@@ -85,4 +77,14 @@ hi CursorLine cterm=underline
 set foldmethod=syntax
 set foldlevel=2
 
-highlight ExtraWhitespace ctermbg=red guibg=red
+let g:quickfixsigns_classes=['qfl', 'vcsdiff']
+
+" Screen
+let g:ScreenImpl = 'Tmux'
+let g:ScreenShellTmuxInitArgs = '-2'
+let g:ScreenShellInitialFocus = 'shell'
+let g:ScreenShellQuitOnVimExit = 0
+map <F8> :ScreenShell<CR>
+command -nargs=? -complete=shellcmd W :w | :call ScreenShellSend("load '".@%."';")
+map <C-p> :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
+map <C-t> :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
