@@ -45,6 +45,9 @@ map <C-c> :TComment<CR>
 map <C-p> :RunSpec<CR>
 map <C-t> :RunSpecLine<CR>
 
+map ,gs :Gstatus<CR>
+map ,gca :Gcommit -v<CR>
+
 "qwerty
 "map <C-l> gt
 "map <C-k> gT
