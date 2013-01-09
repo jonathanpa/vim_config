@@ -84,7 +84,7 @@ hi CursorLine cterm=underline
 set foldmethod=syntax
 set foldlevel=2
 
-let g:quickfixsigns_classes=['qfl', 'vcsdiff']
+let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 
