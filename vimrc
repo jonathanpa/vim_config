@@ -86,6 +86,8 @@ set foldlevel=2
 
 let g:quickfixsigns_classes=['qfl', 'vcsdiff']
 
+highlight ExtraWhitespace ctermbg=red guibg=red
+
 " Screen
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
