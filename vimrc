@@ -49,6 +49,11 @@ map ; :RerunSpec<CR>
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
 
+map ,@ :cp<CR>
+map ,- :cn<CR>
+map ,& :cpf<CR>
+map ,) :cnf<CR>
+
 "qwerty
 "map <C-l> gt
 "map <C-k> gT
