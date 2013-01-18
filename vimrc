@@ -44,7 +44,7 @@ map <C-c> :TComment<CR>
 
 map <C-p> :RunSpec<CR>
 map <C-t> :RunSpecLine<CR>
-map ; :RerunSpec<CR>
+map ,; :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
