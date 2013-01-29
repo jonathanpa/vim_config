@@ -94,3 +94,6 @@
 [submodule "bundle/vim-yaml-flattener"]
 	path = bundle/vim-yaml-flattener
 	url = git://github.com/henrik/vim-yaml-flattener.git
+[submodule "bundle/vim-seek"]
+	path = bundle/vim-seek
+	url = git://github.com/goldfeld/vim-seek.git
