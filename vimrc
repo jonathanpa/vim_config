@@ -102,3 +102,4 @@ map <F8> :ScreenShell<CR>
 command -nargs=? -complete=shellcmd W :w | :call ScreenShellSend("load '".@%."';")
 map ,p :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
 map ,t :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
+map ,e :w<CR> :call ScreenShellSend("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
