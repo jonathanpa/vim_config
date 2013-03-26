@@ -81,6 +81,7 @@ if $COLORTERM == 'gnome-terminal'
   set term=screen-256color
 endif
 
+let g:molokai_original=1
 colorscheme molokai
 
 set cursorline
