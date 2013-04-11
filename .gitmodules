@@ -100,3 +100,6 @@
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim
+[submodule "bundle/NrrwRgn"]
+	path = bundle/NrrwRgn
+	url = git://github.com/chrisbra/NrrwRgn.git
