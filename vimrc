@@ -94,13 +94,12 @@ let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 
-" Screen
-let g:ScreenImpl = 'Tmux'
-let g:ScreenShellTmuxInitArgs = '-2'
-let g:ScreenShellInitialFocus = 'shell'
-let g:ScreenShellQuitOnVimExit = 0
-map <F8> :ScreenShell<CR>
-command -nargs=? -complete=shellcmd W :w | :call ScreenShellSend("load '".@%."';")
-map ,p :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
-map ,t :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
-map ,e :w<CR> :call ScreenShellSend("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+" Vimux
+map <F8> :call VimuxRunCommand('')<CR>
+map <F9> :call VimuxCloseRunner()<CR>
+
+command -nargs=? -complete=shellcmd W :w | :call VimuxRunCommand("load '".@%."';")
+map ,p :w<CR> :call VimuxRunCommand("rspec ".@%)<CR>
+map ,t :w<CR> :call VimuxRunCommand("rspec ".@% . ':' . line('.'))<CR>
+map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+
