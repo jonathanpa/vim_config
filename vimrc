@@ -98,8 +98,8 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 map <F8> :call VimuxRunCommand('')<CR>
 map <F9> :call VimuxCloseRunner()<CR>
 
-command -nargs=? -complete=shellcmd W :w | :call VimuxRunCommand("load '".@%."';")
-map ,p :w<CR> :call VimuxRunCommand("rspec ".@%)<CR>
-map ,t :w<CR> :call VimuxRunCommand("rspec ".@% . ':' . line('.'))<CR>
-map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+" command -nargs=? -complete=shellcmd W :w | :call VimuxRunCommand("load '".@%."';")
+" map ,p :w<CR> :call VimuxRunCommand("rspec ".@%)<CR>
+" map ,t :w<CR> :call VimuxRunCommand("rspec ".@% . ':' . line('.'))<CR>
+" map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
 
