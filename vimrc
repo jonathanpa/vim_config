@@ -44,7 +44,7 @@ map <C-c> :TComment<CR>
 
 map <C-p> :RunSpec<CR>
 map <C-t> :RunSpecLine<CR>
-map ,; :RerunSpec<CR>
+map <C-g> :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
@@ -98,8 +98,10 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 map <F8> :call VimuxRunCommand('')<CR>
 map <F9> :call VimuxCloseRunner()<CR>
 
-" command -nargs=? -complete=shellcmd W :w | :call VimuxRunCommand("load '".@%."';")
-" map ,p :w<CR> :call VimuxRunCommand("rspec ".@%)<CR>
-" map ,t :w<CR> :call VimuxRunCommand("rspec ".@% . ':' . line('.'))<CR>
-" map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+map ,w :TurboSpecLoad<CR>
+map ,p :TurboSpec<CR>
+map ,t :TurboSpecLine<CR>
+map ,g :TurboSpecAgain<CR>
+
+map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
 
