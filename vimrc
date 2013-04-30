@@ -44,7 +44,7 @@ map <C-c> :TComment<CR>
 
 map <C-p> :RunSpec<CR>
 map <C-t> :RunSpecLine<CR>
-map ,; :RerunSpec<CR>
+map <C-g> :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
@@ -94,13 +94,14 @@ let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 
-" Screen
-let g:ScreenImpl = 'Tmux'
-let g:ScreenShellTmuxInitArgs = '-2'
-let g:ScreenShellInitialFocus = 'shell'
-let g:ScreenShellQuitOnVimExit = 0
-map <F8> :ScreenShell<CR>
-command -nargs=? -complete=shellcmd W :w | :call ScreenShellSend("load '".@%."';")
-map ,p :w<CR> :call ScreenShellSend("rspec ".@%)<CR>
-map ,t :w<CR> :call ScreenShellSend("rspec ".@% . ':' . line('.'))<CR>
-map ,e :w<CR> :call ScreenShellSend("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+" Vimux
+map <F8> :call VimuxRunCommand('')<CR>
+map <F9> :call VimuxCloseRunner()<CR>
+
+map ,w :TurboSpecLoad<CR>
+map ,p :TurboSpec<CR>
+map ,t :TurboSpecLine<CR>
+map ,g :TurboSpecAgain<CR>
+
+map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+
