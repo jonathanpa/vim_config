@@ -63,6 +63,7 @@ map <C-m> gt
 map <C-l> gT
 
 map <C-e> :Errors<CR>
+map <C-w>t :tabnew<CR>
 
 let g:syntastic_enable_signs=1
 
