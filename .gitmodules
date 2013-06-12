@@ -1,6 +1,7 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git://github.com/vim-scripts/ack.vim.git
+        ignore = dirty
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
@@ -67,12 +68,15 @@
 [submodule "bundle/textile.vim"]
 	path = bundle/textile.vim
 	url = git://github.com/timcharper/textile.vim.git
+        ignore = dirty
 [submodule "bundle/csv.vim"]
 	path = bundle/csv.vim
 	url = git://github.com/chrisbra/csv.vim.git
+        ignore = dirty
 [submodule "bundle/tComment"]
 	path = bundle/tComment
 	url = git://github.com/vim-scripts/tComment.git
+        ignore = dirty
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/gregsexton/gitv.git
@@ -85,6 +89,7 @@
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
+        ignore = dirty
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
@@ -115,3 +120,4 @@
 [submodule "bundle/l9"]
 	path = bundle/l9
 	url = git://github.com/vim-scripts/L9.git
+        ignore = dirty
