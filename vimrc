@@ -91,6 +91,13 @@ hi CursorLine cterm=underline
 set foldmethod=syntax
 set foldlevel=2
 
+" Don't update folds in insert mode.
+aug NoInsertFolding
+  au!
+  au InsertEnter * let b:oldfdm = &l:fdm | setl fdm=manual
+  au InsertLeave * let &l:fdm = b:oldfdm
+aug END
+
 let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
 
 highlight ExtraWhitespace ctermbg=red guibg=red
