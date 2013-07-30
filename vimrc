@@ -82,8 +82,13 @@ if $COLORTERM == 'gnome-terminal'
   set term=screen-256color
 endif
 
-let g:molokai_original=1
-colorscheme molokai
+if $VIM_USER_THEME == 'sl'
+  set background=light
+  colorscheme solarized
+else
+  let g:molokai_original=1
+  colorscheme molokai
+endif
 
 set cursorline
 hi CursorLine cterm=underline
