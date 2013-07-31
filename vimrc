@@ -85,6 +85,9 @@ endif
 if $VIM_USER_THEME == 'sl'
   set background=light
   colorscheme solarized
+elseif $VIM_USER_THEME == 'sd'
+  set background=dark
+  colorscheme solarized
 else
   let g:molokai_original=1
   colorscheme molokai
