@@ -48,6 +48,7 @@ map <C-g> :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
+map ,gd :Gdiff<CR>
 
 map ,@ :cp<CR>
 map ,- :cn<CR>
