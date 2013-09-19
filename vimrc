@@ -120,5 +120,5 @@ map ,p :TurboSpec<CR>
 map ,t :TurboSpecLine<CR>
 map ,g :TurboSpecAgain<CR>
 
-map ,e :w<CR> :call VimuxRunCommand("cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
+map ,e :w<CR> :call VimuxRunCommand("bundle exec cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
 
