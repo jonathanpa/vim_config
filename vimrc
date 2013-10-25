@@ -30,6 +30,7 @@ map <F2> :match ExtraWhitespace /\s\+$/<CR>
 map <F3> :Trim<CR>
 
 map <F5> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeFind<CR>
 map <F6> :TagbarToggle<CR>
 
 map <C-a> :FufCoverageFile<CR>
