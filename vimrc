@@ -56,10 +56,10 @@ map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
 map ,gd :Gdiff<CR>
 
-map ,@ :cp<CR>
-map ,- :cn<CR>
-map ,& :cpf<CR>
-map ,) :cnf<CR>
+map ,[ :cp<CR>
+map ,] :cn<CR>
+map ,{ :cpf<CR>
+map ,} :cnf<CR>
 
 "qwerty
 map <C-k> gT
