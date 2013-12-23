@@ -38,8 +38,8 @@ map <F6> :TagbarToggle<CR>
 " map <C-z> :FufTab<CR>
 
 " qwerty
-map <C-z> :FufCoverageFile<CR>
-map <C-x> :FufTab<CR>
+map <C-a> :FufCoverageFile<CR>
+map <C-z> :FufTab<CR>
 
 map <C-b> :MRU<CR>
 
@@ -48,7 +48,7 @@ map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
-map <C-p> :RunSpec<CR>
+map <C-r> :RunSpec<CR>
 map <C-t> :RunSpecLine<CR>
 map <C-g> :RerunSpec<CR>
 
