@@ -124,3 +124,6 @@
 [submodule "bundle/rename"]
 	path = bundle/rename
 	url = https://github.com/danro/rename.vim.git
+[submodule "bundle/vim-gemfile"]
+	path = bundle/vim-gemfile
+	url = https://github.com/chaosprinz/vim-gemfile.git
