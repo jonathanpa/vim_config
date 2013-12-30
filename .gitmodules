@@ -113,7 +113,7 @@
 	url = https://github.com/benmills/vimux.git
 [submodule "bundle/turbospecs"]
 	path = bundle/turbospecs
-	url = git@github.com:jonathanpa/turbospecs.git
+	url = https://github.com/jonathanpa/turbospecs.git
 [submodule "bundle/mru"]
 	path = bundle/mru
 	url = git://github.com/vim-scripts/mru.vim.git
