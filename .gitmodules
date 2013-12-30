@@ -26,9 +26,6 @@
 [submodule "bundle/vim-supertab"]
 	path = bundle/vim-supertab
 	url = git://github.com/tsaleh/vim-supertab.git
-[submodule "bundle/vim-tagbar"]
-	path = bundle/vim-tagbar
-	url = git://github.com/timgreen/vim-tagbar.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
