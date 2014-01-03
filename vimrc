@@ -48,9 +48,9 @@ map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
-map <C-r> :RunSpec<CR>
-map <C-t> :RunSpecLine<CR>
-map <C-g> :RerunSpec<CR>
+map \p :RunSpec<CR>
+map \t :RunSpecLine<CR>
+map \g :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
