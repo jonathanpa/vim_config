@@ -33,6 +33,11 @@ map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <F6> :TagbarToggle<CR>
 
+" azerty
+" map <C-a> :FufCoverageFile<CR>
+" map <C-z> :FufTab<CR>
+
+" qwerty
 map <C-a> :FufCoverageFile<CR>
 map <C-z> :FufTab<CR>
 
@@ -43,26 +48,26 @@ map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
-map <C-p> :RunSpec<CR>
-map <C-t> :RunSpecLine<CR>
-map <C-g> :RerunSpec<CR>
+map \p :RunSpec<CR>
+map \t :RunSpecLine<CR>
+map \g :RerunSpec<CR>
 
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
 map ,gd :Gdiff<CR>
 
-map ,@ :cp<CR>
-map ,- :cn<CR>
-map ,& :cpf<CR>
-map ,) :cnf<CR>
+map ,[ :cp<CR>
+map ,] :cn<CR>
+map ,{ :cpf<CR>
+map ,} :cnf<CR>
 
 "qwerty
-"map <C-l> gt
-"map <C-k> gT
+map <C-k> gT
+map <C-l> gt
 
 "azerty
-map <C-m> gt
-map <C-l> gT
+" map <C-l> gT
+" map <C-m> gt
 
 map <C-e> :Errors<CR>
 map <C-w>t :tabnew<CR>
