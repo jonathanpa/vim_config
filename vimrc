@@ -33,10 +33,6 @@ map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <F6> :TagbarToggle<CR>
 
-" azerty
-" map <C-a> :FufCoverageFile<CR>
-" map <C-z> :FufTab<CR>
-
 " qwerty
 map <C-a> :FufCoverageFile<CR>
 map <C-z> :FufTab<CR>
@@ -64,10 +60,6 @@ map ,} :cnf<CR>
 "qwerty
 map <C-k> gT
 map <C-l> gt
-
-"azerty
-" map <C-l> gT
-" map <C-m> gt
 
 map <C-e> :Errors<CR>
 map <C-w>t :tabnew<CR>
