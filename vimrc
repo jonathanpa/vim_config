@@ -109,6 +109,9 @@ let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 
+set colorcolumn=80
+hi ColorColumn ctermbg=235 guibg=#403D3D
+
 " Vimux
 map <F8> :call VimuxRunCommand('')<CR>
 map <F9> :call VimuxCloseRunner()<CR>
