@@ -77,7 +77,7 @@ augroup END
 
 
 "For gnome-terminal
-if $COLORTERM == 'gnome-terminal'
+if $COLORTERM == 'xfce4-terminal'
   set term=screen-256color
 endif
 
