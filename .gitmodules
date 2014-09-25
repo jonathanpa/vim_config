@@ -130,3 +130,9 @@
 [submodule "bundle/tabular.git"]
 	path = bundle/tabular.git
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-codereview"]
+	path = bundle/vim-codereview
+	url = https://github.com/codegram/vim-codereview.git
+[submodule "bundle/patchreview"]
+	path = bundle/patchreview
+	url = https://github.com/vim-scripts/patchreview.vim.git
