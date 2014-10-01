@@ -65,6 +65,9 @@ map <C-l> gt
 map <C-e> :Errors<CR>
 map <C-w>t :tabnew<CR>
 
+map ,o :only<CR>
+map ,O :tabonly<CR>
+
 let g:syntastic_enable_signs=1
 
 set laststatus=2
