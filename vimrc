@@ -120,10 +120,10 @@ hi ColorColumn ctermbg=235 guibg=#403D3D
 map <F8> :call VimuxRunCommand('')<CR>
 map <F9> :call VimuxCloseRunner()<CR>
 
+map ,v :let g:VimuxRunnerType = "window"<CR>:let VimuxUseNearest = 1<CR>
+
 map ,w :TurboSpecLoad<CR>
 map ,p :TurboSpec<CR>
 map ,t :TurboSpecLine<CR>
 map ,g :TurboSpecAgain<CR>
-
-map ,e :w<CR> :call VimuxRunCommand("bundle exec cucumber --require features --format=pretty ".@% . ':' . line('.'))<CR>
 
