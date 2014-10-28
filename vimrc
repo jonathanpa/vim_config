@@ -121,6 +121,7 @@ map <F8> :call VimuxRunCommand('')<CR>
 map <F9> :call VimuxCloseRunner()<CR>
 
 map ,v :let g:VimuxRunnerType = "window"<CR>:let VimuxUseNearest = 1<CR>
+map ,V :unlet g:VimuxRunnerType<CR>:unlet VimuxUseNearest<CR>:call VimuxOpenRunner()<CR>:call VimuxCloseRunner()<CR>
 
 map ,w :TurboSpecLoad<CR>
 map ,p :TurboSpec<CR>
