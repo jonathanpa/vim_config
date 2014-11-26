@@ -99,7 +99,7 @@ endif
 set cursorline
 hi CursorLine cterm=underline
 
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevel=2
 
 " Don't update folds in insert mode.
