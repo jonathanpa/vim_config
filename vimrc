@@ -26,6 +26,8 @@ command Trim %s/\s\+$//e
 
 imap jj <Esc>
 
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 map <F2> :match ExtraWhitespace /\s\+$/<CR>
 map <F3> :Trim<CR>
 
@@ -110,8 +112,6 @@ aug NoInsertFolding
 aug END
 
 let g:quickfixsigns_classes=['qfl', 'vcsdiff', 'marks']
-
-highlight ExtraWhitespace ctermbg=red guibg=red
 
 set colorcolumn=80
 hi ColorColumn ctermbg=235 guibg=#403D3D
