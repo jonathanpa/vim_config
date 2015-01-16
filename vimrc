@@ -81,22 +81,8 @@ augroup myfiletypes
   autocmd FileType * set ai sw=2 sts=2 et
 augroup END
 
-
-"For gnome-terminal
-if $COLORTERM == 'xfce4-terminal'
-  set term=screen-256color
-endif
-
-if $VIM_USER_THEME == 'sl'
-  set background=light
-  colorscheme solarized
-elseif $VIM_USER_THEME == 'sd'
-  set background=dark
-  colorscheme solarized
-else
-  let g:molokai_original=1
-  colorscheme molokai
-endif
+let g:molokai_original=1
+colorscheme molokai
 
 set cursorline
 hi CursorLine cterm=underline
