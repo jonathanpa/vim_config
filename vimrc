@@ -114,3 +114,11 @@ map ,p :TurboSpec<CR>
 map ,t :TurboSpecLine<CR>
 map ,g :TurboSpecAgain<CR>
 
+let g:tmux_navigator_no_mappings = 1
+
+nnoremap <silent> <C-g><Left> :TmuxNavigateLeft<CR>
+nnoremap <silent> <C-g><Down> :TmuxNavigateDown<CR>
+nnoremap <silent> <C-g><Up> :TmuxNavigateUp<CR>
+nnoremap <silent> <C-g><Right> :TmuxNavigateRight<CR>
+nnoremap <silent> <C-g>b :TmuxNavigatePrevious<CR>
+
