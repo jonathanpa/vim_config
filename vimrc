@@ -8,7 +8,7 @@ filetype plugin indent on
 
 syntax on
 
-autocmd VimEnter * call fuf#addMode('tab')
+" autocmd VimEnter * call fuf#addMode('tab')
 
 set nu  " Line numbers on
 
@@ -35,14 +35,13 @@ map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <F6> :TagbarToggle<CR>
 
-" qwerty
-map <C-a> :FufCoverageFile<CR>
-map <C-z> :FufTab<CR>
+" map <C-a> :FufCoverageFile<CR>
+" map <C-z> :FufTab<CR>
+" map <C-j> :FufTag<CR>
 
 map <C-b> :MRU<CR>
 
 map <C-h> :Path<CR>
-map <C-j> :FufTag<CR>
 
 map <C-c> :TComment<CR>
 
@@ -60,7 +59,6 @@ map ,] :cn<CR>
 map ,{ :cpf<CR>
 map ,} :cnf<CR>
 
-"qwerty
 map <C-k> gT
 map <C-l> gt
 
