@@ -37,7 +37,7 @@ map <F6> :TagbarToggle<CR>
 
 map <C-a> :CtrlP<CR>
 map <C-z> :CtrlPBuffer<CR>
-" map <C-j> :FufTag<CR>
+map <C-j> :CtrlPTag<CR>
 
 map <C-b> :MRU<CR>
 
@@ -119,4 +119,6 @@ nnoremap <silent> <C-g><Down> :TmuxNavigateDown<CR>
 nnoremap <silent> <C-g><Up> :TmuxNavigateUp<CR>
 nnoremap <silent> <C-g><Right> :TmuxNavigateRight<CR>
 nnoremap <silent> <C-g>b :TmuxNavigatePrevious<CR>
+
+let g:ctrlp_extensions = ['tag']
 
