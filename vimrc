@@ -35,8 +35,8 @@ map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <F6> :TagbarToggle<CR>
 
-" map <C-a> :FufCoverageFile<CR>
-" map <C-z> :FufTab<CR>
+map <C-a> :CtrlP<CR>
+map <C-z> :CtrlPBuffer<CR>
 " map <C-j> :FufTag<CR>
 
 map <C-b> :MRU<CR>
