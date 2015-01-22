@@ -33,7 +33,7 @@ map <F3> :Trim<CR>
 
 map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
-map <F6> :TagbarToggle<CR>
+map <F6> :TagbarToggle<CR> :TagbarTogglePause<CR>
 
 map <C-a> :CtrlP<CR>
 map <C-z> :CtrlPBuffer<CR>
