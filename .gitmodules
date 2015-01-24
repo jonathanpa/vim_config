@@ -145,3 +145,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/gemfile"]
+	path = bundle/gemfile
+	url = git@github.com:muz/vim-gemfile.git
