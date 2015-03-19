@@ -112,9 +112,6 @@
 	path = bundle/l9
 	url = git://github.com/vim-scripts/L9.git
         ignore = dirty
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/rename"]
 	path = bundle/rename
 	url = https://github.com/danro/rename.vim.git
