@@ -43,10 +43,6 @@ map <C-h> :Path<CR>
 
 map <C-c> :TComment<CR>
 
-map \p :RunSpec<CR>
-map \t :RunSpecLine<CR>
-map \g :RerunSpec<CR>
-
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
 map ,gdf :Gdiff<CR>
