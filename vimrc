@@ -62,6 +62,9 @@ map <C-w>t :tabnew<CR>
 map ,o :only<CR>
 map ,O :tabonly<CR>
 
+map *p :set paste<CR>
+map *P :set nopaste<CR>
+
 let g:syntastic_enable_signs=1
 
 set laststatus=2
