@@ -22,12 +22,11 @@ set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
 command Path echo expand('%:p')
-command Trim %s/\s\+$//e
 
 imap jj <Esc>
 
-map <F2> :match ExtraWhitespace /\s\+$/<CR>
-map <F3> :Trim<CR>
+map <F2> :ToggleWhitespace<CR>
+map <F3> :StripWhitespace<CR>
 
 map <F5> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
