@@ -64,6 +64,8 @@ map ,O :tabonly<CR>
 map *p :set paste<CR>
 map *P :set nopaste<CR>
 
+map ,r :CtrlPClearAllCaches<CR>
+
 let g:syntastic_enable_signs=1
 
 set laststatus=2
