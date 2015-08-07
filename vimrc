@@ -122,3 +122,7 @@ nnoremap <silent> <C-g>b :TmuxNavigatePrevious<CR>
 
 let g:ctrlp_extensions = ['tag']
 
+" To avoid slow scrolling on long buffer with cursorline and cursorcolumn
+" enabled
+set lazyredraw
+
