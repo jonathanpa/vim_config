@@ -142,3 +142,6 @@
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
 	url = git@github.com:ekalinin/Dockerfile.vim.git
+[submodule "bundle/splitjoin"]
+	path = bundle/splitjoin
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
