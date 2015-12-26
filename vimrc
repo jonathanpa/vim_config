@@ -77,8 +77,8 @@ augroup myfiletypes
   autocmd FileType * set ai sw=2 sts=2 et
 augroup END
 
-let g:molokai_original=1
-colorscheme molokai
+set background=dark
+colorscheme solarized
 
 set cursorline
 hi CursorLine cterm=underline
