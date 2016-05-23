@@ -36,7 +36,7 @@ map <C-j> :CtrlP<CR>
 map <C-z> :CtrlPBuffer<CR>
 map <C-h> :CtrlPTag<CR>
 
-map <C-b> :MRU<CR>
+map <C-b> :CtrlPMRUFile<CR>
 
 map ,h :Path<CR>
 
