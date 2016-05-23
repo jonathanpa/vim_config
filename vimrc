@@ -66,6 +66,11 @@ map *P :set nopaste<CR>
 
 map ,r :CtrlPClearAllCaches<CR>
 
+" Easymotion
+map ,, <Plug>(easymotion-prefix)
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
 let g:syntastic_enable_signs=1
 
 set laststatus=2
