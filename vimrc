@@ -72,6 +72,7 @@ map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 
 let g:syntastic_enable_signs=1
+let g:syntastic_ruby_checkers=['rubocop', 'mri']
 
 set laststatus=2
 
