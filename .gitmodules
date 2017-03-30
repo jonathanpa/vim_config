@@ -154,3 +154,6 @@
 [submodule "bundle/yaml-flattener"]
 	path = bundle/yaml-flattener
 	url = https://github.com/henrik/vim-yaml-flattener
+[submodule "bundle/autoformat.git"]
+	path = bundle/autoformat.git
+	url = https://github.com/Chiel92/vim-autoformat.git

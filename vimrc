@@ -64,7 +64,9 @@ map ,O :tabonly<CR>
 map *p :set paste<CR>
 map *P :set nopaste<CR>
 
-map ,r :CtrlPClearAllCaches<CR>
+map ,c :CtrlPClearAllCaches<CR>
+
+map ,r :Autoformat<CR>
 
 " Easymotion
 map ,, <Plug>(easymotion-prefix)
