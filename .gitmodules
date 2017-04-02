@@ -103,9 +103,6 @@
 	path = bundle/l9
 	url = git://github.com/vim-scripts/L9.git
         ignore = dirty
-[submodule "bundle/rename"]
-	path = bundle/rename
-	url = https://github.com/danro/rename.vim.git
 [submodule "bundle/vim-tagbar"]
 	path = bundle/vim-tagbar
 	url = https://github.com/vim-scripts/Tagbar.git
