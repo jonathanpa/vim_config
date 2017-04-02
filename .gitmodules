@@ -160,3 +160,6 @@
 [submodule "bundle/diminactive.git"]
 	path = bundle/diminactive.git
 	url = https://github.com/blueyed/vim-diminactive
+[submodule "bundle/eunuch.git"]
+	path = bundle/eunuch.git
+	url = https://github.com/tpope/vim-eunuch.git
