@@ -134,3 +134,8 @@ let g:ctrlp_extensions = ['tag']
 " enabled
 set lazyredraw
 
+" Disable Golden Ratio
+let g:golden_ratio_autocommand = 0
+let g:golden_ratio_wrap_ignored = 1
+au VimEnter * nested DimInactiveOff
+
