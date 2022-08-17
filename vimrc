@@ -45,7 +45,7 @@ map <C-c> :TComment<CR>
 map ,gs :Gstatus<CR>
 map ,gca :Gcommit -v<CR>
 map ,gdf :Gdiff<CR>
-map ,gb :Gblame<CR>
+map ,gb :Git blame<CR>
 
 map ,[ :cp<CR>
 map ,] :cn<CR>
