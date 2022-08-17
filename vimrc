@@ -141,3 +141,6 @@ map ,gr :GoldenRatioToggle<CR>
 
 au VimEnter * nested DimInactiveOff
 
+" Highlight specific lines at will
+nnoremap <silent> ,hl :call matchadd('Search', '\%'.line('.').'l')<CR>
+nnoremap <silent> ,chl :call clearmatches()<CR>
