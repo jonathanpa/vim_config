@@ -109,16 +109,16 @@ set colorcolumn=80
 hi ColorColumn ctermbg=235 guibg=#403D3D
 
 " Vimux
-map <F8> :call VimuxRunCommand('')<CR>
-map <F9> :call VimuxCloseRunner()<CR>
+" map <F8> :call VimuxRunCommand('')<CR>
+" map <F9> :call VimuxCloseRunner()<CR>
+"
+" map ,v :let g:VimuxRunnerType = "window"<CR>:let VimuxUseNearest = 1<CR>
+" map ,V :unlet g:VimuxRunnerType<CR>:unlet VimuxUseNearest<CR>:call VimuxOpenRunner()<CR>:call VimuxCloseRunner()<CR>
 
-map ,v :let g:VimuxRunnerType = "window"<CR>:let VimuxUseNearest = 1<CR>
-map ,V :unlet g:VimuxRunnerType<CR>:unlet VimuxUseNearest<CR>:call VimuxOpenRunner()<CR>:call VimuxCloseRunner()<CR>
-
-map ,w :TurboSpecLoad<CR>
-map ,p :TurboSpec<CR>
-map ,t :TurboSpecLine<CR>
-map ,g :TurboSpecAgain<CR>
+" map ,w :TurboSpecLoad<CR>
+" map ,p :TurboSpec<CR>
+" map ,t :TurboSpecLine<CR>
+" map ,g :TurboSpecAgain<CR>
 
 let g:tmux_navigator_no_mappings = 1
 
