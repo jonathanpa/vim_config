@@ -139,8 +139,6 @@ let g:golden_ratio_autocommand = 0
 let g:golden_ratio_wrap_ignored = 1
 map ,gr :GoldenRatioToggle<CR>
 
-au VimEnter * nested DimInactiveOff
-
 " Highlight specific lines at will
 nnoremap <silent> ,hl :call matchadd('Search', '\%'.line('.').'l')<CR>
 nnoremap <silent> ,chl :call clearmatches()<CR>
