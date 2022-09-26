@@ -142,3 +142,8 @@ map ,gr :GoldenRatioToggle<CR>
 " Highlight specific lines at will
 nnoremap <silent> ,hl :call matchadd('Search', '\%'.line('.').'l')<CR>
 nnoremap <silent> ,chl :call clearmatches()<CR>
+
+" Csv
+let g:csv_highlight_column = 'y'
+let g:csv_start = 1
+let g:csv_end = 100
