@@ -85,7 +85,7 @@ augroup myfiletypes
   autocmd FileType * set ai sw=2 sts=2 et
 augroup END
 
-set background=light
+set background=dark
 colorscheme solarized
 
 set cursorline
